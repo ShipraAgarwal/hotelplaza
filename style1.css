@@ -1,0 +1,365 @@
+body{
+   background-image: url("images/body.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.logoimg{
+  position:relative;
+  height:10%;
+  width:10%;
+  left:45%;
+  bottom:0;
+  z-index:-10;
+}
+.logo{
+  position:relative;
+}
+ul{
+  position:relative;
+  left:25%;
+}
+.content{
+  position:relativ;
+  height:680px;
+  background-color:rgb(34, 34 ,34);
+  z-index:10;
+  top:-10%;
+}
+#top{
+  position:relative;
+  z-index:10;
+  height:460px;
+  background-image: url("images/hotelback.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+  background-attachment:fixed;
+  filetr:gray
+}
+.welcome{
+  position:relative;
+
+  height:0;
+  background-color:#06086d;
+  top:100%;
+  opacity:0.7;
+  overflow:hidden;
+  transition:1s ease;
+}
+#top:hover .welcome{
+  height:30%;
+  top:70%;
+}
+
+.availability{
+  position:relative;
+  background-color:black;
+  top:0;
+  height:150px;
+}
+.wrap{
+  position:relative;
+  padding-top:4%;
+  color:white;
+  background-color:#171919;
+  height:100%;
+
+}
+.check{
+   position:relative;
+   height:100%;
+   background-color:#171919;
+   color:white;
+   padding-top:4%;
+}
+.check:hover{
+  background-color:#0b0c0c;
+}
+.rooms{
+  position:relative;
+  margin-top:1%;
+}
+.head{
+  color:black;
+  font-size:20px;
+  //font-weight:bold;
+}
+.book-room{
+  background-color:black;
+}
+
+footer{
+  position:relative;
+  height:50px;
+  bottom:0;
+  z-index:50;
+  background-color:black;
+
+  bottom:0;
+  z-index:80;
+}
+.aboutcontainer{
+  margin-bottom:8%;
+}
+.aboutcontainer h3{
+  font-weight:bold;
+  margin-top:10%;
+  margin-bottom:5%;
+}
+.aboutcontainer p{
+  font-size:20px;
+
+}
+@media (max-width:923px)
+{
+  .welcome{
+    display:none;
+  }
+}
+@media (max-width:767px)
+{
+  .content{
+    height:1080px;
+
+  }
+  .availability{
+    height:340px;
+  }
+  .wrap{
+    height:15%;
+    padding-top:0.2%;
+    }
+    .one{
+      top:-40%;
+    }
+    .two{
+      top:-80%;
+    }
+    .three{
+      top:-120%;
+    }
+    .check{
+      height:15%;
+      top:-115%;
+      padding-top:0.2%;
+      width:50%;
+      left:23%;
+    }
+}
+@media (max-width:719px)
+{
+  .one{
+    top:-40%;
+  }
+  .two{
+    top:-75%;
+  }
+  .three{
+    top:-110%;
+  }
+  .check{
+    height:15%;
+    top:-109%;
+
+  }
+}
+@media (max-width:699px)
+{
+  .one{
+    top:-35%;
+  }
+  .two{
+    top:-70%;
+  }
+  .three{
+    top:-105%;
+  }
+  .check{
+    height:15%;
+    top:-105%;
+
+  }
+}
+@media (max-width:630px)
+{
+  .one{
+    top:-30%;
+  }
+  .two{
+    top:-62%;
+  }
+  .three{
+    top:-95%;
+  }
+  .check{
+    height:15%;
+    top:-93%;
+
+  }
+}
+@media (max-width:589px)
+{
+  .one{
+    top:-30%;
+  }
+  .two{
+    top:-58%;
+  }
+  .three{
+    top:-87%;
+  }
+  .check{
+    height:15%;
+    top:-85%;
+
+  }
+}
+@media (max-width:519px)
+{
+  .one{
+    top:-25%;
+  }
+  .two{
+    top:-50%;
+  }
+  .three{
+    top:-76%;
+  }
+  .check{
+    height:15%;
+    top:-73%;
+
+  }
+}
+@media (max-width:460px)
+{
+  .one{
+    top:-18%;
+  }
+  .two{
+    top:-41%;
+  }
+  .three{
+    top:-65%;
+  }
+  .check{
+    height:15%;
+    top:-63%;
+
+  }
+}
+@media (max-width:414px)
+{
+  .one{
+    top:-18%;
+  }
+  .two{
+    top:-40%;
+  }
+  .three{
+    top:-58%;
+  }
+  .check{
+    height:15%;
+    top:-55%;
+
+  }
+}
+@media (max-width:400px)
+{
+  .one{
+    top:-15%;
+  }
+  .two{
+    top:-35%;
+  }
+  .three{
+    top:-54%;
+  }
+  .check{
+    height:15%;
+    top:-52%;
+
+  }
+}
+@media (max-width:359px)
+{
+  .content{
+    height:1100px;
+  }
+  .availability{
+    height:360px;
+  }
+  .wrap{
+    height:20%;
+  }
+  .one{
+    top:-15%;
+  }
+  .two{
+    top:-30%;
+  }
+  .three{
+    top:-45%;
+  }
+  .check{
+    height:15%;
+    top:-45%;
+
+  }
+}
+@media (max-width:299px)
+{
+
+  .one{
+    top:-12%;
+  }
+  .two{
+    top:-25%;
+  }
+  .three{
+    top:-35%;
+  }
+  .check{
+    height:15%;
+    top:-33%;
+
+  }
+}
+@media (max-width:259px)
+{
+
+  .one{
+    top:-10%;
+  }
+  .two{
+    top:-20%;
+  }
+  .three{
+    top:-28%;
+  }
+  .check{
+    width:100%;
+    top:-25%;
+    left:0;
+  }
+}
+@media (max-width:200px)
+{
+
+  .one{
+    top:-8%;
+  }
+  .two{
+    top:-15%;
+  }
+  .three{
+    top:-21%;
+  }
+  .check{
+    width:100%;
+    top:-20%;
+    left:0;
+  }
+}
